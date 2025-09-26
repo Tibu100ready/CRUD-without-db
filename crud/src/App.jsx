@@ -95,7 +95,7 @@ function App() {
         </div>
 
         {(showForm || editingUser) && (
-          <CRUD 
+          <Crud 
             user={editingUser}
             onSave={editingUser ? updateUser : addUser}
             onCancel={cancelEdit}
