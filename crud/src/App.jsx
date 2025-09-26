@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import CRUD from './components/CRUD';
+import CRUD from './components/Crud';
 import UserList from './components/UserList';
 import SearchBar from './components/SearchBar';
 import { PlusCircle, Users } from 'lucide-react';
