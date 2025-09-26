@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Save, X, User } from 'lucide-react';
 
-export default CRUD; function CRUD({ user, onSave, onCancel }) {
+export default Crud; function Crud({ user, onSave, onCancel }) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
